@@ -74,4 +74,4 @@ Change `color:` to a nice matching colour.
 
 #### Screenshot
 
-![Screenshot of Hugo Classic](images/screenshot.png)
+![Screenshot of Hugo Classic](/images/screenshot.png)
