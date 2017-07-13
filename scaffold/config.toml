@@ -28,5 +28,5 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
-    description = "A website built through Hugo and blogdown."
-    footer = "[Open-Source](https://yihui.name) | [Github](https://github.com/goodroot/hugo-classic) | [Twitter](https://twitter.com/thegoodroot)"
+    description = "A simple, minimal blog with a fixed header."
+    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Twitter](https://twitter.com/thegoodroot)"
