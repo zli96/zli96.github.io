@@ -1,28 +1,43 @@
-# HUGO XMIN
+# Hugo.io - Classic Theme
 
-## _Keep it simple, but not simpler_
+Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name).
 
-**XMin** is a Hugo theme written by [Yihui Xie](https://yihui.name) in about four hours: half an hour was spent on the Hugo templates, and 3.5 hours were spent on styling. The main motivation for writing this theme was to provide a really minimal example to beginners of Hugo templates. This XMin theme contains about 130 lines of code in total, including the code in HTML templates and CSS (also counting empty lines).
+It provides `highlight.js` for syntax highlighting and a slick, minimal fixed header.
 
+### Instructions
 
-```bash
-find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xargs wc -l
+1: Install Hugo.
+
+```
+brew install hugo
 ```
 
+2: Create a new site.
+
 ```
-       5 ./layouts/404.html
-      18 ./layouts/_default/list.html
-      12 ./layouts/_default/single.html
-      16 ./layouts/_default/terms.html
-       0 ./layouts/partials/foot_custom.html
-       9 ./layouts/partials/footer.html
-       0 ./layouts/partials/head_custom.html
-      19 ./layouts/partials/header.html
-       7 ./static/css/fonts.css
-      50 ./static/css/style.css
-     136 total
+hugo new site classic
 ```
 
-I can certainly further reduce the code, for example, by eliminating the CSS, but I believe a tiny bit CSS can greatly improve readability. You cannot really find many CSS frameworks that only contain 50 lines of code.
+3: Change to themes dir.
 
-[![Screenshot](https://github.com/yihui/hugo-xmin/raw/master/images/screenshot.png)](https://xmin.yihui.name)
+```
+cd classic/themes
+```
+
+4: Clone the repo
+
+```
+git clone git@github.com:goodroot/hugo-classic.git
+```
+
+5: Copy the contents of the `scaffold` directory into {dir}/classic.
+
+6: Enjoy and customize to your hearts content!
+
+### New Posts
+
+To make new posts, simply use the command line:
+
+```
+hugo new post/good-to-great.md
+```
