@@ -5,7 +5,7 @@ description = "A minimal blog theme with fixed header. Based off the eXtremely m
 homepage = "https://goodroot.ca"
 tags = ["minimal", "blog", "personal", "simple", "clean", "starter", "minimalist"]
 features = ["blog"]
-min_version = "0.02"
+min_version = "0.18"
 
 [author]
   name = "Kellen Evan Person"
