@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="http://emojis.slackmojis.com/emojis/images/1481054971/1409/partywizard.gif?1481054971" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+[<img src="/partywizard.gif" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/goodroot/hugo-classic)
 
 # Hugo.io - Classic
 

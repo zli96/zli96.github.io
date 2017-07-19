@@ -1,7 +1,7 @@
 name = "Hugo - Classic"
 license = "MIT"
 licenselink = "https://github.com/goodroot/hugo-classic/blob/master/LICENSE.md"
-description = "A minimal blog theme with fixed header. Based off the eXtremely minimal theme by Yihui Xui."
+description = "A minimal blog theme, for those who love text. Based off the eXtremely minimal theme by Yihui Xui."
 homepage = "https://goodroot.ca"
 tags = ["minimal", "blog", "personal", "simple", "clean", "starter", "minimalist"]
 features = ["blog"]
