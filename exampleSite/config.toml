@@ -11,10 +11,22 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
 [[menu.feed]]
-    name = "RSS"
+    name = "Subscribe"
     url = "/index.xml"
 
 [params]
-    description = "A simple, minimal blog with a fixed header."
+    description = "A simple, minimal blog for those who love text."
     footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Twitter](https://twitter.com/thegoodroot)"
