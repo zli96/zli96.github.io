@@ -46,15 +46,7 @@ To adjust the header colour, head to `static/css/style.css` and change...
 
 ```
 header {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 1.75rem;
-    font-family: Roboto, "Liberation Mono";
-    font-size: .875rem;
     background: #613DC1;
-    border-bottom: 1px solid #000;
-    z-index: 99
 }
 ```
 
@@ -65,8 +57,6 @@ For header font:
 ```
 header a {
     color: #fff;
-    line-height: 1.75rem;
-    padding: 0 0.5rem
 }
 ```
 
