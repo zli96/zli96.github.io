@@ -28,7 +28,7 @@ cd classic/themes
 git clone git@github.com:goodroot/hugo-classic.git
 ```
 
-5: Copy the contents of the `scaffold` directory into {dir}/classic.
+5: Copy the contents of the `exampleSite` directory into {dir}/classic.
 
 6: Enjoy and customize to your hearts content!
 
