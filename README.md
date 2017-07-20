@@ -64,4 +64,4 @@ Change `color:` to a nice matching colour.
 
 #### Screenshot
 
-![Screenshot of Hugo Classic](/hugo-classic/images/screenshot.png)
+![Screenshot of Hugo Classic](https://github.com/goodroot/hugo-classic/raw/master/images/screenshot.png)
