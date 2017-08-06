@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Classic"
 theme = "hugo-classic"
 googleAnalytics = ""
-disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
