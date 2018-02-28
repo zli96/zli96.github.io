@@ -1,6 +1,6 @@
 # Hugo.io - Classic Theme
 
-Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name). I made a fresh remix of it for my [personal blog](https://goodroot.ca). It provides some simplifications, `highlight.js` for syntax highlighting, and slick fonts.
+Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name). I made a fresh remix of it for my [personal blog](https://goodroot.ca). It provides some simplifications, `highlight.js` for syntax highlighting, emoji support, and slick fonts.
 
 ### Instructions
 
