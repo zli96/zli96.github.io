@@ -65,3 +65,9 @@ Change `color:` to a nice matching colour.
 #### Screenshot
 
 ![Screenshot of Hugo Classic](https://github.com/goodroot/hugo-classic/raw/master/images/screenshot.png)
+
+## Blog Posts
+
+hugo-classic has appeared in...
+
+[15 Hugo Framework blog themes](https://terrty.net/2018/15-hugo-framework-blog-themes/) by [paskal](https://github.com/paskal)
