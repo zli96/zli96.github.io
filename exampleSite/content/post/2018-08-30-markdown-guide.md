@@ -141,18 +141,9 @@ and images can be specified like so:
 
 ![example image](https://github.com/goodroot/hugo-classic/raw/master/images/partywizard.gif "An exemplary image")
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
-
-#### Images auto center:
-
-![Party](http://emojis.slackmojis.com/emojis/images/1475875185/1223/party-dinosaur.gif?1475875185)$. Display
-math should get its own line and be put in in double-dollarsigns:
+Inline math equations go in like so: \\(\omega = d\phi / dt\\). 
+Display math should get its own line and be put in in 
+double-dollarsigns:
 
 $$I = \int \rho R^{2} dV$$
 
