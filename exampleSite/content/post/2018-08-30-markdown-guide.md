@@ -1,7 +1,7 @@
 ---
-title: Markdown Guide
+title: Markdown Guide (modified)
 author: Open Source
-date: '2014-03-14'
+date: '2018-08-30'
 categories:
   - Example
 tags:
@@ -109,28 +109,15 @@ doc](#an-h2-header). Here's a footnote [^1].
 
 Tables can look like this:
 
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
+size|material    |color
+----|------------|------------
+9   |leather     |brown
+10  |hemp canvas |natural
+11  |glass       |transparent
 
 Table: Shoes, their sizes, and what they're made of
 
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
+(The above is the caption for the table.)
 
 A horizontal rule follows.
 
@@ -139,27 +126,24 @@ A horizontal rule follows.
 Here's a definition list:
 
 apples
-  : Good for making applesauce.
+: Good for making applesauce.
+
 oranges
-  : Citrus!
+: Citrus!
+
 tomatoes
-  : There's no "e" in tomatoe.
+: There's no "e" in tomatoe.
 
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
+(Put a blank line between each term/definition pair to spread 
+things out more.)
 
 and images can be specified like so:
 
-![example image](example-image.jpg "An exemplary image")
+![example image](https://github.com/goodroot/hugo-classic/raw/master/images/partywizard.gif "An exemplary image")
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+Inline math equations go in like so: \\(\omega = d\phi / dt\\). 
+Display math should get its own line and be put in in 
+double-dollarsigns:
 
 $$I = \int \rho R^{2} dV$$
 
