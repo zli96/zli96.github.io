@@ -4,6 +4,8 @@ Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.
 
 It provides some simplifications, `highlight.js` for syntax highlighting, emoji support, and slick fonts.
 
+[**View live demo**](https://goodroot.ca)
+
 ### Instructions
 
 1: Install Hugo.
