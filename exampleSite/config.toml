@@ -11,17 +11,13 @@ footnotereturnlinkcontents = "↩"
     post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 2
+    weight = 1
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 3
+    weight = 2
 [[menu.feed]]
     name = "Subscribe"
     url = "/index.xml"
