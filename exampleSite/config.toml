@@ -28,5 +28,5 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A simple, minimal blog for those who love text."
-    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Twitter](https://twitter.com/thegoodroot)"
+    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Keybase](https://keybase.io/goodroot)"
     custom_css = ["css/theme-override.css"]

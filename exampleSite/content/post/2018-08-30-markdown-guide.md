@@ -134,15 +134,15 @@ oranges
 tomatoes
 : There's no "e" in tomatoe.
 
-(Put a blank line between each term/definition pair to spread 
+(Put a blank line between each term/definition pair to spread
 things out more.)
 
 and images can be specified like so:
 
-![example image](https://github.com/goodroot/hugo-classic/raw/master/images/partywizard.gif "An exemplary image")
+![example image](/images/partywizard.gif "An exemplary image")
 
-Inline math equations go in like so: \\(\omega = d\phi / dt\\). 
-Display math should get its own line and be put in in 
+Inline math equations go in like so: \\(\omega = d\phi / dt\\).
+Display math should get its own line and be put in in
 double-dollarsigns:
 
 $$I = \int \rho R^{2} dV$$

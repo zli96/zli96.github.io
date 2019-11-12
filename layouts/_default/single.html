@@ -15,9 +15,10 @@
 {{ if .Params.toc }}
 {{ .TableOfContents }}
 {{ end }}
-
-<main>
-{{ .Content }}
-</main>
-
+<div class="content-wrapper">
+  <main>
+    {{ .Content }}
+    <a href="/"> >> Home</a>
+  </main>
+</div>
 {{ partial "footer.html" . }}

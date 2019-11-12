@@ -1,4 +1,6 @@
 ---
 title: ''
 date: ''
+description: ''
+author: ''
 ---
