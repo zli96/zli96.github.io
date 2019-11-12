@@ -32,7 +32,7 @@ cd classic/themes
 git clone git@github.com:goodroot/hugo-classic.git
 ```
 
-5: Copy the `content/`, `static/`, and `config.toml` from the `exampleSite` directory into the classic directory. The existing `content/`, `static/`, and `config.toml` files will be over-written.
+5: Copy files within the `exampleSite` directory into the classic directory. Overwrite the existing `content/`, `static/`, and `config.toml` files.
 
 6: Run `hugo server` within `classic/` and enjoy and customize to your hearts content!
 

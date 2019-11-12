@@ -11,20 +11,19 @@ title: Home
 
 ### For text focused goodness
 
-About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home. But around the same time, Bill Gates and Paul Allen came up with an idea even stranger and more fantastical: **selling computer operating systems**. This was much weirder than the idea of Jobs and Wozniak.
+About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home. But around the same time, Bill Gates and Paul Allen came up with an idea even stranger and more fantastical: **selling computer operating systems**.
+
+This was much weirder than the idea of Jobs and Wozniak.
 
 ~~~ruby
-def with_value_from_database(value)
-  self.class.from_database(name, value, type)
+def word_up(value)
+  self.class.from_life(name, value, type)
 end
 
-def with_cast_value(value)
-  self.class.with_cast_value(name, value, type)
-end
+def word_down(value)
+  self.class.from_death(name, value, type)
 end
 ~~~
-
-A computer at least had some sort of physical reality to it. It came in a box, you could open it up and plug it in and watch lights blink.
 
 ---
 
