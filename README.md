@@ -1,8 +1,8 @@
 # Hugo.io - Classic Theme
 
-Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name).
+Classic is stylized fork of the **XMin** theme, written by [Yihui Xie](https://yihui.name).
 
-It provides some simplifications, `highlight.js` for syntax highlighting, emoji support, and slick fonts.
+Provides `highlight.js` for syntax highlighting, emoji support, Inter and optional **_darkmode_**.
 
 [**View live demo**](https://goodroot.ca)
 
@@ -65,6 +65,24 @@ header a {
 ```
 
 Change `color:` to a nice matching colour.
+
+### Darkmode
+
+1. Open `static/css/style.css`
+
+2. Edit the following attributes to match light/dark
+
+```css
+/* darkmode */
+@media (prefers-color-scheme: dark) {
+    ...
+}
+
+/* lightmode */
+@media (prefers-color-scheme: light) {
+    ...
+}
+```
 
 #### Screenshot
 
