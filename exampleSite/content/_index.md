@@ -16,3 +16,7 @@ Born in [The Abyss](https://en.wikipedia.org/wiki/Edmonton), **Grayfox** - also 
 Their greatest joys are darkness and its quietudes.
 
 <img src="/images/partywizard.gif">
+
+---
+
+## Musings
