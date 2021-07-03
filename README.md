@@ -46,7 +46,7 @@ cd .. && hugo server
 
 ### New Posts
 
-To make new posts, simply use the command line:
+Make new posts:
 
 ```
 hugo new post/good-to-great.md
@@ -54,7 +54,7 @@ hugo new post/good-to-great.md
 
 ### Header Colour
 
-To adjust the header colour, head to `static/css/style.css` and change...
+Adjust header colour within `static/css/style.css`
 
 ```
 header {
@@ -76,6 +76,8 @@ Change `color:` to a nice matching colour.
 
 ### Darkmode
 
+Match or over-ride system-wide dark/light settings
+
 1. Open `static/css/style.css`
 
 2. Edit the following attributes to match light/dark
@@ -94,7 +96,8 @@ Change `color:` to a nice matching colour.
 
 #### Screenshot
 
-![Screenshot of Hugo Classic](/images/screenshot.png)
+![Hugo Classic light mode](/images/light.png)
+![Hugo Classic dark mode](/images/dark.png)
 
 ## Blog Posts
 
