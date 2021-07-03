@@ -32,13 +32,21 @@ cd classic/themes
 git clone git@github.com:goodroot/hugo-classic.git
 ```
 
-5: Copy files within the `exampleSite` directory into the classic directory. Overwrite the existing `content/`, `static/`, and `config.toml` files.
+5: Copy files within the `exampleSite` directory
 
-6: Run `hugo server` within `classic/` and enjoy and customize to your hearts content!
+```
+cp -a hugo-classic/exampleSite/. ../
+```
+
+6: Run `hugo server` within `classic/`
+
+```
+cd .. && hugo server
+```
 
 ### New Posts
 
-To make new posts, simply use the command line:
+Make new posts:
 
 ```
 hugo new post/good-to-great.md
@@ -46,7 +54,7 @@ hugo new post/good-to-great.md
 
 ### Header Colour
 
-To adjust the header colour, head to `static/css/style.css` and change...
+Adjust header colour within `static/css/style.css`
 
 ```
 header {
@@ -68,6 +76,8 @@ Change `color:` to a nice matching colour.
 
 ### Darkmode
 
+Match or over-ride system-wide dark/light settings
+
 1. Open `static/css/style.css`
 
 2. Edit the following attributes to match light/dark
@@ -86,7 +96,8 @@ Change `color:` to a nice matching colour.
 
 #### Screenshot
 
-![Screenshot of Hugo Classic](/images/screenshot.png)
+![Hugo Classic dark mode](/images/dark.png)
+![Hugo Classic light mode](/images/light.png)
 
 ## Blog Posts
 
