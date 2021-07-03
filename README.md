@@ -1,6 +1,6 @@
 # Hugo.io - Classic Theme
 
-Classic is stylized fork of the **XMin** theme, written by [Yihui Xie](https://yihui.name).
+Classic is a stylized fork of the **XMin** theme, written by [Yihui Xie](https://yihui.name).
 
 Provides `highlight.js` for syntax highlighting, emoji support, Inter and optional **_darkmode_**.
 
