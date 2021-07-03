@@ -36,7 +36,6 @@
     table thead th { border-bottom: 1px solid #666; }
     th, td { padding: 5px; }
     tr:nth-child(even) { background: #666 }
-
 }
 
 /* lightmode */
@@ -75,7 +74,6 @@
     table thead th { border-bottom: 1px solid #666; }
     th, td { padding: 5px; }
     tr:nth-child(even) { background: #666 }
-
 }
 
 body {
