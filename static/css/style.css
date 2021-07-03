@@ -201,11 +201,11 @@ blockquote {
 }
 
 /* Small devices, phones */
-/* @media only screen and (min-width : 480px) {
-  #your-face {
+@media only screen and (min-width : 480px) {
+  #foxy {
     min-width: 40px;
     float: center;
     padding: 10px 10px 10px 20px;
     display: block;
   }
-} */
+}
