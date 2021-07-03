@@ -96,8 +96,8 @@ Match or over-ride system-wide dark/light settings
 
 #### Screenshot
 
-![Hugo Classic light mode](/images/light.png)
 ![Hugo Classic dark mode](/images/dark.png)
+![Hugo Classic light mode](/images/light.png)
 
 ## Blog Posts
 
