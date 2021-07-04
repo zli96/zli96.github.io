@@ -20,7 +20,7 @@ lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
 noClasses = true
-style = "friendly"
+style = "monokai"
 tabWidth = 4
 
 [permalinks]

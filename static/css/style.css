@@ -154,8 +154,7 @@ header .current a {
 
 /* Code Boxes */
 pre {
-  border: 1px solid #ddd;
-  background: #f8f8f8;
+  border: 2px solid #EBC3DB;
   padding: 1em;
   overflow-x: auto;
 }
