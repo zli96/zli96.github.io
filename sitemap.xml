@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://zli96.github.io/categories/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/example/</loc>
+    <loc>https://zli96.github.io/categories/example/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://zli96.github.io/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/markdown/</loc>
+    <loc>https://zli96.github.io/tags/markdown/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/2018-08-30-markdown-guide/</loc>
+    <loc>https://zli96.github.io/post/2018/08/30/markdown-guide-modified/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/</loc>
+    <loc>https://zli96.github.io/post/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://zli96.github.io/tags/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/bullhorn/</loc>
+    <loc>https://zli96.github.io/categories/bullhorn/</loc>
     <lastmod>2012-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/hacker-with-horn/</loc>
+    <loc>https://zli96.github.io/post/2012/04/23/hacker-with-horn/</loc>
     <lastmod>2012-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/blog/</loc>
+    <loc>https://zli96.github.io/categories/blog/</loc>
     <lastmod>2012-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/2015-07-23-command-line-awesomeness/</loc>
+    <loc>https://zli96.github.io/post/2012/03/12/command-line-awesomeness/</loc>
     <lastmod>2012-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/html/</loc>
+    <loc>https://zli96.github.io/tags/html/</loc>
     <lastmod>2012-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/code/</loc>
+    <loc>https://zli96.github.io/categories/code/</loc>
     <lastmod>2012-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/juicy/</loc>
+    <loc>https://zli96.github.io/tags/juicy/</loc>
     <lastmod>2012-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/juicy-code/</loc>
+    <loc>https://zli96.github.io/post/2012/01/23/juicy-code/</loc>
     <lastmod>2012-01-23T00:00:00+00:00</lastmod>
   </url>
 </urlset>

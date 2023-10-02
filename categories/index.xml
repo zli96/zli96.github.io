@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>https://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Classic</title>
+    <link>https://zli96.github.io/categories/</link>
+    <description>Recent content in Categories on Classic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://zli96.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example</title>
-      <link>https://example.org/categories/example/</link>
+      <link>https://zli96.github.io/categories/example/</link>
       <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/example/</guid>
+      <guid>https://zli96.github.io/categories/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bullhorn</title>
-      <link>https://example.org/categories/bullhorn/</link>
+      <link>https://zli96.github.io/categories/bullhorn/</link>
       <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/bullhorn/</guid>
+      <guid>https://zli96.github.io/categories/bullhorn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://example.org/categories/blog/</link>
+      <link>https://zli96.github.io/categories/blog/</link>
       <pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/blog/</guid>
+      <guid>https://zli96.github.io/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>https://example.org/categories/code/</link>
+      <link>https://zli96.github.io/categories/code/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/code/</guid>
+      <guid>https://zli96.github.io/categories/code/</guid>
       <description></description>
     </item>
     
