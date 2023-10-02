@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on home</title>
-    <link>https://zli96.github.io/</link>
-    <description>Recent content in Home on home</description>
+    <title>Publications on home</title>
+    <link>https://zli96.github.io/publication/</link>
+    <description>Recent content in Publications on home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://zli96.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://zli96.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breaking Boundaries: Distributed Domain Decomposition with Scalable Physics-Informed Neural PDE Solvers</title>
       <link>https://zli96.github.io/publication/distmf/</link>
