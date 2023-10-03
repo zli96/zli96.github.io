@@ -251,6 +251,9 @@ body {
   font-size: 16px;
   display: block;
 }
+.selfName {
+  font-weight: bold;
+}
 .periodical {
   font-size: 16px;
   font-style: italic;
