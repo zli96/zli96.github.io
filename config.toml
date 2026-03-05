@@ -28,11 +28,6 @@ tabWidth = 4
 [permalinks]
 post = "/post/:year/:month/:day/:slug/"
 
-[[menu.main]]
-name = "publications"
-url = "/publication/"
-weight = 1
-
 [params]
 custom_css = ["css/theme-override.css"]
 description = "A simple, minimal blog for those who love text."

@@ -1,21 +1,22 @@
 ---
 title: Home
-description: ""
+description: "Zitong Li - Ph.D. candidate in EECS at University of California, Irvine"
 ---
 
-<img id="self" src="/images/self.jpg">
+<div class="hero-section">
+  <img id="self" src="/images/self.jpg" alt="Zitong Li">
+  <div class="hero-content">
+    <h1>Zitong Li</h1>
+    <p class="subtitle">Ph.D. Candidate<br>EECS, University of California, Irvine</p>
+    <p class="contact">Email: zitongl5@uci.edu</p>
+    <p class="contact-links">
+      <a href="/texts/CV.pdf" target="_blank" rel="noopener">CV</a> / <a href="https://scholar.google.com/citations?hl=en&user=jLkefbUAAAAJ" target="_blank" rel="noopener">Google Scholar</a> / <a href="https://www.linkedin.com/in/zitong-li/" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </div>
+</div>
 
-## Li, Zitong
-Second year Ph.D student
-<br>
-EECS, UC Irvine
-<br>
-zitongl5 'at' uci.edu
-<br>
-<br>
-<span style="font-size: 25px;">[**CV**](/texts/CV.pdf)</span>
+## About
 
-I'm advised by [Aparna Chandramowlishwaran](https://hpcforge.eng.uci.edu/). My current research interest falls in the intersection among scientific computing, machine learning, and high performance computing. The current project involves solving the Poisson equation with domain decomposition method where each subdomain is solved by a pretrained Neural PDE solver. I have previously worked on and am still interested in parallel Tensor decomposition algorithms.
+I'm a Ph.D. student at UC Irvine, advised by [Aparna Chandramowlishwaran](https://hpcforge.eng.uci.edu/). My research focuses on leveraging sparsity in machine learning models using GPUs.
 
-I got my BS in 2018 from University of Nebraska, Lincoln. I received my MS in 2022 at Wake Forest University, advised by [Grey Ballard](https://users.wfu.edu/ballard/index.html).
-<br>
+I received my M.S. in 2022 from Wake Forest University, where I worked on parallel tensor decomposition algorithms advised by [Grey Ballard](https://users.wfu.edu/ballard/index.html). I received my B.S. in 2018 from the University of Nebraska, Lincoln, 

@@ -1,9 +1,14 @@
 {{ partial "header.html" . }}
-<div class="content-wrapper publications-page">
+<div class="content-wrapper home-page">
   <main>
+    {{ .Content }}
+  </main>
+
+  <section id="publications" class="publications-section">
     <h2>Publications</h2>
     <ul class="publications-list">
-      {{ range (.Pages.ByParam "date").Reverse}}
+      {{ $publications := .Site.GetPage "/publication" }}
+      {{ range ($publications.Pages.ByParam "date").Reverse }}
         <li class="publication-item">
           {{ if ne .Params.thumbnail "none" }}
           <div class="publication-thumbnail">
@@ -17,19 +22,19 @@
               {{ $authors := split .Params.authors ", " }}
               {{ range $index, $author := $authors }}
                 {{- if eq $author "Zitong Li" -}}
-                  <strong>{{$author}}</strong>
+                  <strong>{{ $author }}</strong>
                 {{- else -}}
-                  {{$author}}
+                  {{ $author }}
                 {{- end -}}
                 {{- if not (eq $index (sub (len $authors) 1)) -}}, {{ end }}
               {{ end }}
             </span>
-            <span class="publication-venue">{{ .Params.periodical }}, {{dateFormat "2006" .Params.date}}</span>
+            <span class="publication-venue">{{ .Params.periodical }}, {{ dateFormat "2006" .Params.date }}</span>
             <a href="{{ .Params.link }}" class="publication-link" target="_blank" rel="noopener">DOI / Link →</a>
           </div>
         </li>
       {{ end }}
     </ul>
-  </main>
+  </section>
 </div>
 {{ partial "footer.html" . }}
