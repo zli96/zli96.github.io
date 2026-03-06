@@ -164,7 +164,9 @@ a:hover {
   background: linear-gradient(to right, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   display: inline-block;
+  padding-bottom: 0.15em;
 }
 
 .subtitle {
@@ -396,13 +398,30 @@ a:hover {
   }
 }
 
-.publication-link {
-  font-size: 0.9rem;
+.publication-links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.publication-link {
+  font-size: 0.85rem;
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
   font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  transition: var(--transition);
+}
+
+.publication-link:hover {
+  background-color: var(--accent);
+  color: #fff !important;
 }
 
 .publication-link::after {
@@ -467,4 +486,197 @@ main {
   background-color: var(--border-color);
   margin-left: 1rem;
 }
+
+/* Project / Paper page */
+.no-site-header ~ .site-header,
+.no-site-header + .site-header {
+  display: none;
+}
+
+body:has(.no-site-header) .site-header {
+  display: none !important;
+}
+
+body:has(.no-site-header) {
+  padding-top: 0 !important;
+}
+
+.project-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.project-article {
+  width: 100%;
+}
+
+.project-header {
+  margin-bottom: 2rem;
+  text-align: center;
+  background: none !important;
+  height: auto !important;
+  position: static !important;
+}
+
+.project-header .project-title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 0.4rem 0;
+  color: var(--primary);
+}
+
+.project-header .project-venue {
+  font-size: 1rem;
+  color: var(--text-main);
+  margin: 0 0 0.5rem 0;
+}
+
+.project-header .project-authors {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  font-weight: normal;
+}
+
+.project-header .project-authors a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+}
+
+.project-header .project-authors a:hover {
+  text-decoration: underline !important;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  color: var(--accent) !important;
+  background: none !important;
+  text-decoration: none !important;
+  transition: var(--transition);
+}
+
+.project-btn:hover {
+  background-color: var(--accent) !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.project-body h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.project-body h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--border-color);
+  margin-left: 0.5rem;
+}
+
+.project-body h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary);
+}
+
+.project-body p {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+  color: var(--text-main);
+}
+
+.project-body strong {
+  color: var(--primary);
+}
+
+.project-body ul, .project-body ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.project-body li {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 0.4rem;
+  color: var(--text-main);
+}
+
+.project-body figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.project-body figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.project-body figure.figure-medium img {
+  max-width: 70%;
+}
+
+.project-body figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-body pre {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.25rem;
+  overflow-x: auto;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.project-body code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.88em;
+}
+
+.project-body p code {
+  background-color: rgba(79, 70, 229, 0.08);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
 

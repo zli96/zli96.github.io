@@ -30,7 +30,15 @@
               {{ end }}
             </span>
             <span class="publication-venue">{{ .Params.periodical }}, {{ dateFormat "2006" .Params.date }}</span>
-            <a href="{{ .Params.link }}" class="publication-link" target="_blank" rel="noopener">DOI / Link →</a>
+            <div class="publication-links-row">
+              <a href="{{ .Params.link }}" class="publication-link" target="_blank" rel="noopener">DOI / Link</a>
+              {{ if gt (len .Content) 0 }}
+              <a href="{{ .RelPermalink }}" class="publication-link project-page-link">Project Page</a>
+              {{ end }}
+              {{ with .Params.code }}
+              <a href="{{ . }}" class="publication-link" target="_blank" rel="noopener">Code</a>
+              {{ end }}
+            </div>
           </div>
         </li>
       {{ end }}

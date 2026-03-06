@@ -1,0 +1,37 @@
+{{ partial "header.html" . }}
+<div class="content-wrapper project-page no-site-header">
+  <main>
+    <article class="project-article">
+      <div class="project-header">
+        <h1 class="project-title">{{ .Title }}</h1>
+        <p class="project-venue">{{ .Params.periodical_full | default (printf "%s %s" .Params.periodical (dateFormat "2006" .Params.date)) }}</p>
+        <p class="project-authors">
+          {{ $authors := split .Params.authors ", " }}
+          {{ range $index, $author := $authors }}
+            {{- if eq $author "Zitong Li" -}}
+              <a href="/">{{ $author }}</a>
+            {{- else if eq $author "Aparna Chandramowlishwaran" -}}
+              <a href="https://hpcforge.eng.uci.edu/" target="_blank" rel="noopener">{{ $author }}</a>
+            {{- else -}}
+              {{ $author }}
+            {{- end -}}
+            {{- if not (eq $index (sub (len $authors) 1)) -}}, {{ end }}
+          {{ end }}
+        </p>
+        <div class="project-links">
+          {{ with .Params.link }}
+          <a href="{{ . }}" class="project-btn" target="_blank" rel="noopener">Paper</a>
+          {{ end }}
+          {{ with .Params.code }}
+          <a href="{{ . }}" class="project-btn" target="_blank" rel="noopener">Code</a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="project-body">
+        {{ .Content }}
+      </div>
+    </article>
+  </main>
+</div>
+{{ partial "footer.html" . }}
